@@ -1,0 +1,303 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../src/fonts/Poppins-Light.ttf'); 
+}
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('../src/fonts/Poppins-Medium.ttf'); 
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../src/fonts/Poppins-Regular.ttf'); 
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../src/fonts/Poppins-Bold.ttf'); 
+}
+@font-face {
+  font-family: 'GT-Walsheim';
+  src: url('../src/fonts/GT-Walsheim-Bold.ttf'); 
+}
+
+/*Pink to black*/
+.pink-btn {
+  background: #F8567B;
+  transition: background-color 0.3s;
+  font-size: 20px;
+}
+
+.pink-btn:hover {
+  background-color: #000000;
+}
+/*Pink to black*/
+
+/*Black to Pink*/
+
+.custom-btn {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 20px;
+  padding: 15px 50px;
+  background-color: #F8567B !important;
+
+}
+
+.custom-btn:hover {
+  background-color: #fff !important;
+  color: #F8567B;
+}
+.custom-btn2:hover{
+  background-color: #fff !important;
+  color: #0c0c0c;
+}
+
+/*Pink to black*/
+
+/*Black to Pink*/
+.custom-btn2 {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 20px;
+  padding: 15px 50px;
+  background: #0c0c0c !important;
+}
+
+.cart-btn {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 20px;
+  padding: 15px 50px;
+  background: #F8567B !important;
+
+}
+
+.cart-btn:hover {
+  background-color: #000000 !important;
+  color: #ffffff;
+}
+/*Black to Pink*/
+
+.text-pink{
+  color: #F8567B;
+}
+.bg-pink{
+  background: #F8567B;
+  color: #fff;
+}
+a{
+  color:#F8567B;
+}
+a:hover{
+  color: #0c0c0c;
+}
+/* Content button except nav*/
+
+.btn-outline-pink{
+  color:#F8567B !important;
+  background: transparent;
+}
+.btn-outline-pink:hover{
+  background: #F8567B;
+  color: #fff;
+  
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'GT-Walsheim';
+}
+.fs-20{
+  font-size: 20px;
+  line-height: 35px;
+}
+
+p{
+  font-size: 16px;
+  font-family: 'Poppins-Light';
+}
+.pb-30{
+  padding-bottom: 30px;
+}
+
+
+/* Ecom Css*/
+.shop{
+  margin-bottom: 100px;
+}
+.shopTitle {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+/* .products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: center;
+} */
+
+/* .product {
+  border-radius: 15px;
+  width: 500px;
+  height: 350px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.product img {
+  width: 400px;
+}
+
+.product .description {
+  text-align: center;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+/* Ecom Css*/
+
+
+/* Checkout Css*/
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItem {
+  width: 700px;
+  height: 250px;
+  display: flex;
+
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+}
+
+.cartItem img {
+  width: 200px;
+}
+
+.cartItem .description {
+  width: 100%;
+  font-size: 30px;
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+/* Checkout Css*/
+body {
+  background-color: #fbfbfb;
+  font-family: "Poppins-Regular";
+}
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+  color: #fff;
+  background-color: #dc4c64;
+  border-color: #dc4c64;
+  border-radius: 5px;
+}
+
+.css-10jndm7-JoyAspectRatio-content{
+  min-height: 450px !important;
+}
+.card-text{
+  font-family: 'GT-Walshein';
+}
+.cart-btn{
+  float: right !important;
+}
+.list-group-item{
+  border: none !important;
+}
+
+.sidebar{
+  width: 220px;
+}
+.list-group a:hover{
+  background-color: #F8567B;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Dashboard Button */
+.custom-button {
+  background: #f8567b !important;
+  color: #fff !important;
+  border: 2px solid #f8567b;
+}
+
+.custom-button:hover {
+  background: #fff !important;
+  border: 2px solid #f8567b !important;
+  color: #f8567b !important;
+}
+
+.custom-button2 {
+  background: #000 !important;
+  color: #fff !important;
+  border: 2px solid #000 !important;
+}
+
+.custom-button2:hover {
+  background: #fff !important;
+  border: 2px solid #000 !important;
+  color: #000 !important;
+}
+
+/* Add this CSS to your stylesheet or inline styles */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
